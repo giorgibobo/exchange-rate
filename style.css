@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    text-align: center;
+    margin-top: 50px;
+}
+
+h1{
+    color: rgba(95,186,167,255);
+    margin-top: 30px;
+    font-size: 50px;
+}
+
+p{
+    font-size: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.first-row{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;    
+    
+}
+
+#currency-one{   
+    font-size: 20px;
+    border-color: rgba(95,186,167,255);
+    cursor: pointer;
+    padding: 10px 5px;
+    /* margin-right: -700px; */
+    
+}
+
+input{
+    padding: 10px 5px;
+    font-size: 40px; 
+    cursor: pointer;
+    width: 60px;
+    border: none;
+}
+
+.second-row{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px; 
+    align-items: center;
+}
+
+h3{
+    color: rgba(95,186,167,255);
+    /* margin-left: -780px; */
+}
+
+button{
+    background-color: rgba(95,186,167,255);
+    color: white;
+    padding: 8px 12px;
+    font-size: 20px;
+    border-radius: 7px;
+    cursor: pointer;
+    border: inherit;
+    margin-right: -80px;
+}
+
+.third-row{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;  
+
+}
+
+.third-row div{
+    font-size: 40px;
+}
+
+#currency-two{   
+    font-size: 20px;
+    border-color: rgba(95,186,167,255);
+    cursor: pointer;
+    padding: 10px 5px;
+    /* margin-right: -700px; */
+    
+}
+
